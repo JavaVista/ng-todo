@@ -1,0 +1,19 @@
+.rem {
+    background: #d50000;
+    color: #FAFAFA;
+    border: none;
+    padding: 5px 9px;
+    border-radius: 50%;
+    cursor: pointer;
+    float: right;
+}
+
+.todo {
+    background: #EEEEEE;
+    padding: 10px;
+    border-bottom: 1px #BDBDBD dotted;
+}
+
+.completed {
+    text-decoration: line-through;
+}

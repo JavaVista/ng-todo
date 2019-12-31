@@ -1,3 +1,7 @@
-<p>
+<div [ngClass]="setClasses()">
+  <p>
+    <input type="checkbox" />
     {{ todo.title }}
-</p>
+    <button class="rem">x</button>
+  </p>
+</div>
