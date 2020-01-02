@@ -22,4 +22,12 @@ export class TodoItemComponent implements OnInit {
     }
     return classes;
   }
+
+  toggle(todo) {
+    todo.completed = !todo.completed;
+  }
+  delete(todo) {
+    console.log('del');
+  }
+
 }
