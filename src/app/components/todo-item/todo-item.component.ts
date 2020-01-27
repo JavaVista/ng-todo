@@ -11,7 +11,7 @@ export class TodoItemComponent implements OnInit {
   @Input() todo: Todo;
   @Output() deleteTodo: EventEmitter<Todo> = new EventEmitter();
 
-  constructor(private todoServ: TodoService) {}
+  constructor(private todoService: TodoService) {}
 
   ngOnInit() {}
 
@@ -28,7 +28,7 @@ export class TodoItemComponent implements OnInit {
     // Toggle in UI
     todo.completed = !todo.completed;
     // Toggle on Server
-    this.todoServ.toggleCompleted(todo).subscribe(todo => console.log(todo));
+    this.todoService.toggleCompleted(todo).subscribe(todo => console.log(todo));
   }
 
   delete(todo) {

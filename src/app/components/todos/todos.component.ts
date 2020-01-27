@@ -10,10 +10,10 @@ import { TodoService } from "../../services/todo.service";
 })
 export class TodosComponent implements OnInit {
   todos: Todo[];
-  constructor(private todoServ: TodoService) {}
+  constructor(private todoService: TodoService) {}
 
   ngOnInit() {
-    this.todoServ.getTodos().subscribe(todos => {
+    this.todoService.getTodos().subscribe(todos => {
       this.todos = todos;
     });
   }
@@ -22,6 +22,12 @@ export class TodosComponent implements OnInit {
     // Remove from UI
     this.todos = this.todos.filter(myTodo => myTodo.id !== todo.id);
     // Remove from Server
-    this.todoServ.deleteTodo(todo).subscribe();
+    this.todoService.deleteTodo(todo).subscribe();
+  }
+
+  addTodo(todo: Todo) {
+    this.todoService.addTodo(todo).subscribe(todo => {
+      this.todos.push(todo);
+    });
   }
 }
