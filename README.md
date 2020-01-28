@@ -1,6 +1,21 @@
-# NgTodo
+# Todo List
+
+A todo list 📔 created using the Angular framework.
+
+# Screenshot
+
+![Todo List](src/assets/ngTodoList.png)
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.21.
+
+## Demo
+
+[Todo List](http://github.com)
+
+## Technology
+
+- Angular v8
+- [JSONPlaceholder API](https://jsonplaceholder.typicode.com/)
 
 ## Development server
 
@@ -25,3 +40,18 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+# Resource
+
+[Angular Crash Course - Traversy Media](https://www.youtube.com/watch?v=Fdf5aTYRW0E)
+
+## Contact / Social Media
+
+- Twitter – [@seetechnologic](https://twitter.com/seetechnologic)
+- GitHub - [https://github.com/JavaVista/](https://github.com/JavaVista/)
+- LinkedIn - [Javier Carrion](https://www.linkedin.com/in/technologic)
+
+### License
+
+Distributed under the MIT License. Note: Copyright and license text of third party modules are included in their source code.
+
