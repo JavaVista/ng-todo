@@ -10,7 +10,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ## Demo
 
-[Todo List](http://github.com)
+[Todo List](https://optimistic-easley-1ec00e.netlify.com/)
 
 ## Technology
 
